@@ -12,7 +12,7 @@ import zcy.office.Excel;
  * @author zcy
  *
  */
-public class Test {
+public class SomeTest {
 
 	/**
 	 * @param args
@@ -42,9 +42,9 @@ public class Test {
 		try
 		{
 			System.out.print("\n(Test.class)\t");
-			System.out.println(zcy.path.GetClassPath.getPathFromClass(Test.class));
+			System.out.println(zcy.path.GetClassPath.getPathFromClass(SomeTest.class));
 			System.out.print("../../..)\t");
-			System.out.println(zcy.path.GetClassPath.getFullPathRelateClass("../../..",Test.class));
+			System.out.println(zcy.path.GetClassPath.getFullPathRelateClass("../../..",SomeTest.class));
 		}
 		catch(Exception e)
 		{
