@@ -5,5 +5,5 @@ import javax.jws.WebService;
 @WebService 
 public interface iWebService { 
 	public void putCommand(String terminalCode, String cmd);
-	public String getCommand();
+	public String getCommand(String terminalCode);
 }
